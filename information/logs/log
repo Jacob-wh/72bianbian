@@ -1746,3 +1746,51 @@ INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:47] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:02:19] "GET /supindex HTTP/1.1" 200 -
 INFO _internal.py:88  * Detected change in 'G:\\PythonWorkSpace\\information\\env\\lib\\site-packages\\redis\\__init__.py', reloading
 INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR views.py:82 module 'MySQLdb' has no attribute 'paramstyle'
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:03] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:18:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR views.py:82 module 'MySQLdb' has no attribute 'paramstyle'
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:56] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:56] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:57] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:20:57] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR views.py:82 module 'MySQLdb' has no attribute 'paramstyle'
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:38] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:38] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:39] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:21:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Detected change in 'G:\\PythonWorkSpace\\information\\info\\modeules\\index\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat

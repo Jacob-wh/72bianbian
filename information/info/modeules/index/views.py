@@ -14,6 +14,7 @@ def news_list():
 
     # 1，获取参数
     # 新闻的分类id
+
     cid = request.args.get("cid", "1")
     page = request.args.get("page", "1")
     per_page = request.args.get("per_page", "10")

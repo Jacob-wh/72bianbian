@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34fff41b-2701-497c-a1a1-6aa75d9a16ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/MySQLdb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/MySQLdb/_exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PIL/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PIL/_binary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/pbr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/_auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/charset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/connections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/converters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/cursors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/cursors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/lock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/selector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/sentinel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/sentinel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/__version__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information/env/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../information/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../information/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/../information/logs/log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -340,7 +294,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
