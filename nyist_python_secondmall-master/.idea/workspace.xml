@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34fff41b-2701-497c-a1a1-6aa75d9a16ba" name="Default Changelist" comment="" />
+    <list default="true" id="34fff41b-2701-497c-a1a1-6aa75d9a16ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/MySQLdb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/MySQLdb/_exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PIL/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PIL/_binary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/pbr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/PyMySQL-0.9.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/mysqlclient-1.4.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/charset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/connections.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/connections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/converters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/cursors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/cursors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/pymysql/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis-3.2.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/selector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/sentinel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/redis/sentinel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests-2.21.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/Lib/site-packages/requests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/env/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/../information/env/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../information/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/../information/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="1224">
               <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -35,12 +85,6 @@
                 <element signature="e#1747#2717#0" />
                 <element signature="e#2864#3011#0" />
                 <element signature="e#3071#3920#0" />
-                <element signature="e#5494#5953#0" />
-                <element signature="e#6032#6223#0" />
-                <element signature="e#6300#6774#0" />
-                <element signature="e#6835#7822#0" />
-                <element signature="e#7901#9155#0" />
-                <element signature="e#9208#9433#0" />
               </folding>
             </state>
           </provider>
@@ -143,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -209,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.nyist_python_secondmall-master">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="nyist-trade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +298,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="nyist_python_secondmall-master" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="nyist_python_secondmall-master" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -271,16 +330,19 @@
       <workItem from="1552395048176" duration="2826000" />
       <workItem from="1552482167867" duration="7052000" />
       <workItem from="1552828708251" duration="951000" />
+      <workItem from="1553087425016" duration="600000" />
+      <workItem from="1553088819120" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39065000" />
+    <option name="totallyTimeSpent" value="40387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,20 +552,20 @@
     <entry file="file://$PROJECT_DIR$/templates/admin/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,12 +621,6 @@
             <element signature="e#1747#2717#0" />
             <element signature="e#2864#3011#0" />
             <element signature="e#3071#3920#0" />
-            <element signature="e#5494#5953#0" />
-            <element signature="e#6032#6223#0" />
-            <element signature="e#6300#6774#0" />
-            <element signature="e#6835#7822#0" />
-            <element signature="e#7901#9155#0" />
-            <element signature="e#9208#9433#0" />
           </folding>
         </state>
       </provider>

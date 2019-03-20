@@ -1728,3 +1728,21 @@ INFO _internal.py:88 127.0.0.1 - - [19/Mar/2019 23:03:40] "GET /static/news/js/m
 INFO _internal.py:88 127.0.0.1 - - [19/Mar/2019 23:03:40] "GET /static/news/images/logo44.jpg HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [19/Mar/2019 23:03:41] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [19/Mar/2019 23:03:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 299-131-394
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:45] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:45] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:45] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:45] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:46] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:46] "GET /static/news/images/logo44.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:46] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:46] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:46] "GET /news_list?page=1&cid=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:01:47] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Mar/2019 23:02:19] "GET /supindex HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in 'G:\\PythonWorkSpace\\information\\env\\lib\\site-packages\\redis\\__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
