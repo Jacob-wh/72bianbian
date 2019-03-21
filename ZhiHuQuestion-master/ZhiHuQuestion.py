@@ -106,6 +106,3 @@ def my_context_processor():
             return {'user': user}
     return {}
 
-
-if __name__ == '__main__':
-    app.run(port=5001)
