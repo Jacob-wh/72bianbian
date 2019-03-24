@@ -103,5 +103,5 @@ celerybeat-schedule
 # mypy
 .mypy_cache/
 
-.idea/
-logs/
+information/.idea/
+information/logs/
