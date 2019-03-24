@@ -11,6 +11,9 @@ db.init_app(app)
 
 @app.route('/')
 def index():
+    data = {
+
+    }
     context = {
         'questions': Question.query.order_by(Question.create_time.desc()).all()
     }
