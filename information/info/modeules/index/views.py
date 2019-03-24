@@ -56,52 +56,52 @@ def news_list():
     return jsonify(errno=RET.OK, errmsg="ok", data=data)
 
 
-# @index_blu.route('/')
-# @user_login_data
-# def index():
-#     # redis_store.set('name', 'huanghaibo')
-#     """
-#     显示首页
-#     1,如果用户已经登录，将当前登录用户的数据传到模板中，显示
-#     :return:
-#     """
-#     user_id = session.get('user_id', None)
-#     user = None
-#     if user_id:
-#         try:
-#             user = User.query.get(user_id)
-#             print(user)
-#         except Exception as e:
-#             current_app.logger.error(e)
-#     user = g.user
-#     #  右侧新闻排行逻辑
-#     news_list = []
-#     cid = request.args.get("cid", "1")
-#     try:
-#         news_list = News.query.order_by(News.clicks.desc()).limit(6)
-#     except Exception as e:
-#         current_app.logger.error(e)
-#
-#     news_dict_li = []
-#     # 遍历对象列表
-#     for news in news_list:
-#         # print(news)
-#         news_dict_li.append(news.to_basic_dict())
-#     # 查询分类数据， 通过末班形式展示出来
-#     categories = Category.query.all()
-#     category_li = []
-#     for category in categories:
-#         category_li.append(category)
-#
-#     data = {
-#         "user": user.to_dict() if user else None,
-#         "news_dict_li": news_dict_li,
-#         "category_li": category_li,
-#         "cid": cid
-#     }
-#     return render_template('news/index.html',
-#                            data=data,
-#                            )
+@index_blu.route('/index')
+@user_login_data
+def index():
+    # redis_store.set('name', 'huanghaibo')
+    """
+    显示首页
+    1,如果用户已经登录，将当前登录用户的数据传到模板中，显示
+    :return:
+    """
+    user_id = session.get('user_id', None)
+    user = None
+    if user_id:
+        try:
+            user = User.query.get(user_id)
+            print(user)
+        except Exception as e:
+            current_app.logger.error(e)
+    user = g.user
+    #  右侧新闻排行逻辑
+    news_list = []
+    cid = request.args.get("cid", "1")
+    try:
+        news_list = News.query.order_by(News.clicks.desc()).limit(6)
+    except Exception as e:
+        current_app.logger.error(e)
+
+    news_dict_li = []
+    # 遍历对象列表
+    for news in news_list:
+        # print(news)
+        news_dict_li.append(news.to_basic_dict())
+    # 查询分类数据， 通过末班形式展示出来
+    categories = Category.query.all()
+    category_li = []
+    for category in categories:
+        category_li.append(category)
+
+    data = {
+        "user": user.to_dict() if user else None,
+        "news_dict_li": news_dict_li,
+        "category_li": category_li,
+        "cid": cid
+    }
+    return render_template('news/index.html',
+                           data=data,
+                           )
 #
 
 # 打开网页，浏览器会默认去请求根路径+favicon.ico做网站的标签头标
