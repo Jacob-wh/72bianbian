@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bde5e3c-fcdf-475c-9f9b-4161c0aeb03c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/information.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/information.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/MySQLdb/_mysql.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/MySQLdb/_mysql.cp37-win_amd64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/MySQLdb/release.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/MySQLdb/release.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/Pygments-2.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/Pygments-2.2.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/SQLAlchemy-1.2.13-py3.7.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/SQLAlchemy-1.2.13-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi-2018.11.29.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/certifi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/certifi/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/ipython-7.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/ipython-7.1.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/chardetect.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/chardetect.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/iptest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/iptest.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/iptest3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/iptest3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/ipython.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/ipython.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/ipython3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/ipython3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/pygmentize.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pygmentize.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/modeules/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/modeules/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/static/news/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/info/static/news/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/templates/news/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/info/templates/news/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/templates/supindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/info/templates/supindex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nyist_python_secondmall-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nyist_python_secondmall-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/information$information.coverage" NAME="information Coverage Results" MODIFIED="1553093506354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/information$bian.coverage" NAME="bian Coverage Results" MODIFIED="1553096828292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information$bian.coverage" NAME="bian Coverage Results" MODIFIED="1553303665714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -73,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info/modeules/index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="180">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -106,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,10 +88,16 @@
               <item name="information" type="b2602c69:ProjectViewProjectNode" />
               <item name="information" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="information" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,16 +156,18 @@
       <updated>1553088942271</updated>
       <workItem from="1553088944515" duration="2763000" />
       <workItem from="1553095681058" duration="1142000" />
+      <workItem from="1553170410400" duration="3926000" />
+      <workItem from="1553303406727" duration="2861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3905000" />
+    <option name="totallyTimeSpent" value="10692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info/modeules/index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="180">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>

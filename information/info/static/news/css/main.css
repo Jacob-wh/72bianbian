@@ -90,6 +90,7 @@ body{
     width:1200px;
     overflow:hidden;
     margin:20px auto 0;
+    margin-top: 0px;
 }
 
 .list_con{
