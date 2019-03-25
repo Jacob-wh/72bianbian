@@ -1,5 +1,6 @@
 var cur_page = 1; // 当前页
 var total_page = 1;  // 总页数
+currentCid = 1
 var data_querying = true;   // 是否正在向后台获取数据
 console.log("kkkkkkkkk")
 $(function () {
