@@ -109,3 +109,4 @@ information/logs/
 ..idea/
 .logs/
 .__pycache__/
+*.pyc
