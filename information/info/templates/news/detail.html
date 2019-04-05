@@ -5,13 +5,13 @@
 {% block scriptBlock %}
     <script type="text/javascript" src="../../static/news/js/detail.js"></script>
 {% endblock %}
-{% block categoryBlock %}
-<ul class="menu fl">
-{% for category in data.category_li %}
-    <li data-cid="{{ category.id }}"><a href="/?cid={{ category.id }}">{{ category.name }}</a></li>
-{% endfor %}
-</ul>
-{% endblock %}
+{#{% block categoryBlock %}#}
+{#<ul class="menu fl">#}
+{#{% for category in data.category_li %}#}
+{#    <li data-cid="{{ category.id }}"><a href="/?cid={{ category.id }}">{{ category.name }}</a></li>#}
+{#{% endfor %}#}
+{#</ul>#}
+{#{% endblock %}#}
 {% block contentBlock %}
  <div class="conter_con">
     <div class="detail_con fl">
@@ -111,5 +111,7 @@
 {#            <a href="javascript:;" class="focused fr" data-userid="{{ data.news.author.id }}"><span class="out">已关注</span><span class="over">取消关注</span></a>#}
         </div>
     {% endif %}
+{% endblock %}
+{% block asd %}
 {% endblock %}
 </div>

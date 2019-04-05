@@ -11,6 +11,9 @@ db.init_app(app)
 
 @app.route('/')
 def index():
+    data = {
+
+    }
     context = {
         'questions': Question.query.order_by(Question.create_time.desc()).all()
     }
@@ -106,6 +109,3 @@ def my_context_processor():
             return {'user': user}
     return {}
 
-
-if __name__ == '__main__':
-    app.run(port=5001)

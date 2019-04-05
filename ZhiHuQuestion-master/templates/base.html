@@ -2,58 +2,159 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}{% endblock %}-知乎问答平台</title>
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-    {% block head %}{% endblock %}
+    <title>{% block titleBlock %}
+
+    {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="../../static/news/css/reset.css">
+    {% block cssBlock %}
+
+    {% endblock %}
+    <link rel="stylesheet" type="text/css" href="../../static/news/css/main.css">
+    <script type="text/javascript" src="../../static/news/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../../static/news/js/main.js"></script>
+    {% block scriptBlock %}
+
+    {% endblock %}
+{#    <script type="text/javascript" src="../../static/news/js/index.js"></script>#}
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/" style="color: #0f88eb; font-size: x-large">知乎</a>
-            </div>
+    <div class="header_con">
+        <div class="header">
+            <a href="/" class="logo fl"><img src="../../static/news/images/logo44.jpg" alt="logo"></a>
+            <div id="currentcid" style="display:none">{{ data.cid }}</div>
+            {% block categoryBlock %}
+                <ul class="menu fl">
+                {% for category in data.category_li %}
+                    <li data-cid="{{ category.id }}"><a href="javascript:;">{{ category.name }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endblock %}
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">首页<span class="sr-only">(current)</span></a></li>
-                    <li><a href="{{ url_for('question') }}">发布问答</a></li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="搜索你感兴趣的内容...">
-                    </div>
-                    <button type="submit" class="btn btn-default" style="background-color: #0f88eb; color: white">提问</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    {% if user %}
-                    <li><a href="#">{{ user.username }}</a></li>
-                    <li><a href="{{ url_for('logout') }}">注销</a></li>
-                    {% else %}
-                    <li><a href="{{ url_for('login') }}">登陆</a></li>
-                    <li><a href="{{ url_for('register') }}">注册</a></li>
-                    {% endif %}
-                </ul>
+            {% if data.user %}
+
+            <!-- 用户登录后显示下面，隐藏上面 -->
+            <div class="user_login fr">
+                <img src="{% if data.user.avatar_url %}{{ data.user.avatar_url }}{% else %}../../static/news/images/person01.png{% endif %}" class="lgin_pic">
+                <a href="/user/info" id="nick_name">{{ data.user.nick_name }}</a>
+                <a href="/passport/logout">退出</a>
             </div>
+                {% else %}
+                <div class="user_btns fr">
+                <a href="javascript:;" class="login_btn">登录</a> / <a href="javascript:;" class="register_btn">注册</a>
+            </div>
+            {% endif %}
         </div>
-    </nav>
-    <div class="main">
-        {% block main %}{% endblock %}
     </div>
+
+    <div class="conter_con">
+        {% block contentBlock %}
+
+        {% endblock %}
+        {% block rankBlock %}
+            <div class="rank_con fr">
+            {% block authorBlock %}
+
+            {% endblock %}
+            <div class="rank_title">
+                <h3>点击排行</h3>
+            </div>
+            <ul class="rank_list">
+                {% for news in data.news_dict_li %}
+                    <li><span {% if loop.index == 1 %}
+                    class="first"
+                    {% elif loop.index == 2 %}
+                        class="second"
+                    {% elif loop.index == 3 %}
+                        class="third"
+                    {% endif %}>{{ loop.index }}</span><a href="{{ url_for("news.news_detail",news_id=news.id) }}">{{ news.title }}</a></li>
+
+                {% endfor %}
+            </ul>
+        </div>
+            {% endblock %}
+
+
+    </div>
+    {% block bottomBlock %}
+    <div class="footer">
+        <div class="footer_links">
+            <a href="">关于我们</a>
+            <span>|</span>
+            <a href="">联系我们</a>
+            <span>|</span>
+            <a href="">招聘人才</a>
+            <span>|</span>
+            <a href="">友情链接</a>
+        </div>
+        <p class="copyright">
+            CopyRight © 2018 新经资讯信息技术有限公司 All Rights Reserved<br />
+电话：010-****888    京ICP备*******8号
+        </p>
+    </div>
+    {% endblock %}
+
+
+    <!-- 登录表单 -->
+    <form class="login_form_con">
+        <div class="login_form">
+            <div class="login_title">
+                <h3>登 录</h3>
+                <a href="javascript:;" class="shutoff"></a>
+            </div>
+            <div class="form_group">
+                <input id="mobile" type="text" name="mobile" autocomplete="off">
+                <div class="input_tip">手机号</div>
+                <div id="login-mobile-err" class="error_tip">手机号不能为空</div>
+            </div>
+            <div class="form_group">
+                <input id="password" type="password" name="password">
+                <div class="input_tip">密码(不少于6位)</div>
+                <div id="login-password-err" class="error_tip">密码不能为空</div>
+            </div>
+            <input type="submit" name="" value="登 录" class="input_sub">
+            <div class="down_link">还没有账号？<a href="javascript:;" class="to_register">立即注册</a></div>
+        </div>
+        <div class="mask"></div>
+    </form>
+
+    <!-- 注册表单 -->
+    <form class="register_form_con">
+        <div class="register_form">
+            <div class="register_title">
+                <h3>注 册</h3>
+                <a href="javascript:;" class="shutoff"></a>
+            </div>
+            <div class="form_group">
+                <input type="text" name="mobile" autocomplete="off" id="register_mobile" class="phone_input">
+                <div class="input_tip">手机号</div>
+                <div id="register-mobile-err" class="error_tip">手机号不能为空</div>
+            </div>
+            <div class="form_group">
+                <input type="text" name="code_pwd" id="imagecode" class="code_pwd">
+                <div class="input_tip">图形验证码</div>
+                <img src="../../static/news/images/pic_code.png" class="get_pic_code" onclick="generateImageCode()">
+                <div id="register-image-code-err" class="error_tip">图形码不能为空</div>
+            </div>
+            <div class="form_group">
+                <input type="text" name="smscode" id="smscode" class="code_pwd">
+                <div class="input_tip">手机验证码</div>
+                <a href="javascript:;" class="get_code" onclick="sendSMSCode()">点击获取验证码</a>
+                <div id="register-sms-code-err" class="error_tip">验证码不能为空</div>
+            </div>
+            <div class="form_group">
+                <input type="password" name="password" id="register_password" class="pass_input">
+                <div class="input_tip">密码(不少于6位)</div>
+                <div id="register-password-err" class="error_tip">密码不能为空</div>
+            </div>
+            <div  class="form_group2 clearfix">
+                <input type="checkbox" class="agree_input" checked>
+                <p>同意使用条款，并已阅读"跟帖评论自律管理承诺书"</p>
+                <div class="error_tip">请勾选</div>
+            </div>
+            <input type="submit" name="" value="注 册" class="input_sub">
+            <div class="down_link">已有账号？<a href="javascript:;" class="to_login">立即登录</a></div>
+        </div>
+        <div class="mask"></div>
+    </form>
 </body>
 </html>
