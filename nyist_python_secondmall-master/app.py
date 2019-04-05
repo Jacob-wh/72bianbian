@@ -28,6 +28,7 @@ with app.app_context():
 
 @app.route('/')
 def index():
+    print(session.values())
     print("主页。。。。。。。。。。。。")
     productList = Product.query.filter(Product.is_sell == 1,Product.is_pass == 2).order_by(Product.click_count.desc()).slice(0, 10)
     productList1 = Product.query.filter(Product.is_sell == 1,Product.is_pass == 2).order_by(Product.pdate.desc()).slice(0, 10)

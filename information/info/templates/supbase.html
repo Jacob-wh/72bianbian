@@ -6,14 +6,14 @@
 
     {% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="../../static/news/css/reset.css">
-    {% block cssBlock %}
-
-    {% endblock %}
     <link rel="stylesheet" type="text/css" href="../../static/news/css/main.css">
     <link rel="stylesheet" type="text/css" href="../../static/bootstrap-4.3.1/dist/css/bootstrap.min.css">
     <script type="text/javascript" src="../../static/news/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../../static/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../static/news/js/main.js"></script>
+    {% block cssBlock %}
+
+    {% endblock %}
     {% block scriptBlock %}
 
     {% endblock %}
@@ -23,14 +23,15 @@
     <div class="header_con">
         <div class="header">
             <a href="/" class="logo fl"><img src="../../static/news/images/logo44.jpg" alt="logo"></a>
-            <div id="currentcid" style="display:none">{{ data.cid }}</div>
-            {% block categoryBlock %}
-                <ul class="menu fl">
-                {% for category in data.category_li %}
-                    <li data-cid="{{ category.id }}"><a href="javascript:;">{{ category.name }}</a></li>
-                {% endfor %}
+  
+            <ul class="menu fl">
+                <li data-cid=""><a href="javascript:;">二手商城</a></li>
+                <li data-cid=""><a href="javascript:;">新闻资讯</a></li>
+                <li data-cid=""><a href="javascript:;">问答咨询</a></li>
+                <li data-cid=""><a href="javascript:;">回收预约</a></li>
+                <li data-cid=""><a href="javascript:;">租房查询</a></li>
             </ul>
-            {% endblock %}
+
 
             {% if data.user %}
 
@@ -48,10 +49,8 @@
         </div>
     </div>
         {% block contentBlock %}
-
         {% endblock %}
         {% block rankBlock %}
-          
         {% endblock %}
     {% block bottomBlock %}
     <div class="footer">

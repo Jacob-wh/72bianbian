@@ -78,5 +78,9 @@ def create_app(config_name):
     app.register_blueprint(profile_blu)
     from info.modeules.admin import admin_blu
     app.register_blueprint(admin_blu, url_prefix="/admin")
+    from info.modeules.rent import rent_bul
+    app.register_blueprint(rent_bul)
+    from info.modeules.appointment import appointment_bul
+    app.register_blueprint(appointment_bul)
 
     return app

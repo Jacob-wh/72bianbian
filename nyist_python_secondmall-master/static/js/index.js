@@ -45,6 +45,14 @@
             }
 
         })
+        $(".login_btn").click(function () {
+            username = $(".user_msg").text()
+            if (username == ""){
+
+                $(".open_loginUI").click()
+            }
+
+        })
          $(".one_li").click(function (e) {
              e.preventDefault()
              $(".one_cate").text($(this).children('a').text())

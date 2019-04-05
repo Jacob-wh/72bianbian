@@ -2,7 +2,7 @@ from info.models import User, News, Category
 from info.untils.captcha.response_code import RET
 from info.untils.common import user_login_data
 from . import index_blu
-from flask import render_template, current_app, session, request, jsonify, g
+from flask import render_template, current_app, session, request, jsonify, g, sessions
 
 
 @index_blu.route('/news_list')
@@ -119,6 +119,6 @@ def cluster():
 
 
 @index_blu.route('/supindex')
-def ccc():
+def supindex():
     data = "ccc"
     return render_template("/supindex.html", data=data)
