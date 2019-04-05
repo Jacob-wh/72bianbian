@@ -106,6 +106,6 @@ celerybeat-schedule
 information/.idea/
 information/logs/
 
-*/.idea/
-*/.logs/
-*/__pycache__/
+..idea/
+.logs/
+.__pycache__/
